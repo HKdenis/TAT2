@@ -32,7 +32,7 @@ district_select = st.selectbox("SELECT DISTRICT:", [" ","Bukomansimbi", "Butamba
 
 facility_select = st.selectbox("HEALTH FACILITY:", [" ","Bigasa Health center III", "Butenga Health center III", "Kagoggo Health Centre II", "Kigangazzi Health Centre II",
 "Kisojjo Health Centre II", "Kitanda Health Centre III", "Mirambi Health Centre III", "St. Mary's Maternity & Nursing Home", "Bulo Health Centre III", "Butaaka Health Centre III", "Epi-CentreSenge Health Centre", 
-"Kalamba Community Health Centre II", "Kibugga Health Centre II", "Kitimba Health Centre III", "Kiziiko Health Centre II", "Kyabadaza Health Centre III", "Ngando Health Centre III",
+"Kalamba Community Health Centre II", "Kibugga Health Centre II", "Kitimba Health Centre III", "Kiziiko Health Centre II", "Kyabadaza Health Centre III", "Ngando Health Centre III","Gombe General Hospital",
 "Bulwadda Health Centre III", "Buyanja Health Centre II", "Kanoni Health Centre III", "Kifampa Health Centre III", "Kisozi Health Centre III", "Kitwe Health Centre II", "Kyayi Health Centre III", "Maddu Health Centre", 
 "Ngomanene Health Centre III", "Bubeke Health Centre III", "Bufumira Health Centre III", "Bukasa Health Centre IV", "Bwendero Health Centre III", "Jaana Health Centre II", "Kachanga Island Health Centre II",
 "Mulabana Health Centre II", "Ssese Islands African Aids Project Health Centre II", "AHF Uganda Care", "Bukulula Health Centre IV", "Kabaale Health Centre III", "Kalungu Health Centre III", "Kasambya Health centre", 
@@ -108,6 +108,7 @@ if submitted:
 
 
        
+
 
 
 
