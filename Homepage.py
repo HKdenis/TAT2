@@ -21,9 +21,9 @@ Use the sidebar to navigate through different sections of the tracker.
 
 st.sidebar.success('Select a page above to get started.')
 
-#st.sidebar.write("""Note: Refresh the data entry page after report submission to clear the form.""")
+st.sidebar.write("""Note: Refresh the data entry page after report submission to clear the form.""")
 
-#st.markdown("TOTAL MENTORSHIP VISITS CONDUCTED BY MONTH AT A GLANCE")
+st.markdown("TOTAL MENTORSHIP VISITS CONDUCTED BY MONTH AT A GLANCE")
 
 # Load credentials from secrets.toml
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
@@ -69,6 +69,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
