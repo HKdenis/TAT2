@@ -6,7 +6,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from google.oauth2 import service_account
 
 st.subheader("MENTORSHIP RECORDS")
-
+st.sidebar.write("""Navigate down the page to see more figures.""")
 # Load credentials from secrets.toml
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 service_account_info = st.secrets["gcp_service_account"]
@@ -36,5 +36,6 @@ st.markdown("(ii): DISTRICT")
 st.plotly_chart(px.histogram(df, x="District"), use_container_width=True)
 st.markdown("(iii): HEALTH FACILITY")
 st.plotly_chart(px.histogram(df, x="Health Facility"), use_container_width=True)
+
 
 
