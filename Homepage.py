@@ -19,8 +19,6 @@ This application is designed to help you monitor and manage technical assistance
 Use the sidebar to navigate through different sections of the tracker.
 """)     
 
-st.sidebar.title("Navigation")
-st.sidebar.write("Welcome")
 st.sidebar.success('Select a page above to get started.')
 
 #st.sidebar.write("""Note: Refresh the data entry page after report submission to clear the form.""")
@@ -71,6 +69,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
