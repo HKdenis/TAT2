@@ -30,9 +30,10 @@ df = pd.DataFrame(data)
 
 st.dataframe(df, use_container_width=True)
 st.markdown("### DISTRIBUTION OF MENTORSHIP VISITS BY DIFFERENT CATEGORIES")
-st.markdown("MENTOR/TA PROVIDER")
+st.markdown("(i):MENTOR/TA PROVIDER")
 st.plotly_chart(px.histogram(df, x="Mentor/ TA Provider"), use_container_width=True)
-st.markdown("DISTRICT")
+st.markdown("(ii):DISTRICT")
 st.plotly_chart(px.histogram(df, x="District"), use_container_width=True)
-st.markdown("HEALTH FACILITY")
+st.markdown("(iii):HEALTH FACILITY")
 st.plotly_chart(px.histogram(df, x="Health Facility"), use_container_width=True)
+
