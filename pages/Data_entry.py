@@ -5,7 +5,7 @@ import pandas as pd
 from google.oauth2 import service_account
 import datetime
 
-
+st.sidebar.write("""Note: Refresh the data entry page after report submission to clear the form.""")
 
 # Load credentials from secrets.toml
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
@@ -108,6 +108,7 @@ if submitted:
 
 
        
+
 
 
 
