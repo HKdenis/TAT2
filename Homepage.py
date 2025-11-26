@@ -12,7 +12,6 @@ st.set_page_config(page_title="Technical assistance tracker",
 )
 
 st.title("🧊 Technical Assistance Tracker")
-
 st.write("""
 Welcome to the Technical Assistance Tracker! 
 This application is designed to help you monitor and manage technical assistance visits.
@@ -20,11 +19,8 @@ Use the sidebar to navigate through different sections of the tracker.
 """)     
 
 st.sidebar.success('Select a page above to get started.')
-
 #st.sidebar.write("""Note: Refresh the data entry page after report submission to clear the form.""")
-
 st.markdown("TOTAL MENTORSHIP VISITS CONDUCTED BY MONTH AT A GLANCE")
-
 # Load credentials from secrets.toml
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 service_account_info = st.secrets["gcp_service_account"]
@@ -69,6 +65,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
