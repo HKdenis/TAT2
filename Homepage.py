@@ -6,8 +6,6 @@ from oauth2client.service_account import ServiceAccountCredentials
 from google.oauth2 import service_account
 import os
 
-st.page_link("pages/Data_entry.py")
-st.page_link("pages/Mentorship_Records.py")
 
 st.set_page_config(page_title="Technical assistance tracker",
     page_icon="🧊",
@@ -73,6 +71,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
