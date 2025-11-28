@@ -20,7 +20,7 @@ client = gspread.authorize(creds)
 # Open the Google Sheet
 sheet = client.open("Mentorship tool").worksheet("TA Data Entry")
 
-st.markdown("TECHNICAL ASSISTANCE AND MENTORSHIP REPORTING FORM")
+st.header("TECHNICAL ASSISTANCE AND MENTORSHIP REPORTING FORM")
 st.markdown("***DATA ENTRY FORM***")
 st.markdown(">Please fill in the form below to submit your TA/Mentorship report!")
 
@@ -108,6 +108,7 @@ if submitted:
 
 
        
+
 
 
 
