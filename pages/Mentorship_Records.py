@@ -28,6 +28,20 @@ data = worksheet.get_all_records()
 			 
 df = pd.DataFrame(data)
 
+#Other TA activities
+spreadsheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1EXvYhyOEhK1zYG7I5e4c4SQiy-BjTW8o2x-I80D-J9o/edit?usp=sharing")
+worksheet = spreadsheet.worksheet("Data Entry form2")
+
+# Fetch all records from the worksheet
+data = worksheet.get_all_records()
+			 
+df = pd.DataFrame(data)
+
+
+
+
+
+
 st.dataframe(df, use_container_width=True)
 st.markdown("### DISTRIBUTION OF MENTORSHIP VISITS BY DIFFERENT CATEGORIES")
 st.markdown("(i): MENTOR/TA PROVIDER")
@@ -36,6 +50,7 @@ st.markdown("(ii): DISTRICT")
 st.plotly_chart(px.histogram(df, x="District"), use_container_width=True)
 st.markdown("(iii): HEALTH FACILITY")
 st.plotly_chart(px.histogram(df, x="Health Facility"), use_container_width=True)
+
 
 
 
