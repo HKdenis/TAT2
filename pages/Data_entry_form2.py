@@ -20,8 +20,7 @@ client = gspread.authorize(creds)
 # Open the Google Sheet
 sheet = client.open("Mentorship tool").worksheet("TA Data Entry form2")
 
-st.subheader("TECHNICAL ASSISTANCE AND MENTORSHIP REPORTING FORM")
-st.markdown("***OTHER TA ACTIVITIES***")
+st.Header("***OTHER TA ACTIVITIES***")
 st.markdown(">Please fill in the form below to submit Other activities!")
 
 
