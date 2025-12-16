@@ -74,11 +74,11 @@ additional_mentor = st.text_input("If other, specify name of Mentor/TA Provider:
 
 text_input = st.text_input("ACTIVITY TOPIC")
 text_input = st.text_area("TEAMS INVOLVED")
-key_issues = st.text_area("Highlights/Findings")
-actions = st.text_area("Next Steps/Actions if applicable")
+key_issues = st.text_area("HIGHLIGHTS/FINDINGS")
+actions = st.text_area("RECOMMENDATIONS/NEXT STEPS")
 
 
-submitted = st.button("Submit Report")
+submitted = st.button("SUBMIT")
 
 # appending a row
 if submitted:
@@ -88,6 +88,7 @@ if submitted:
         facility_select,
         list_box,
         additional_mentor,
+        text_input,
         text_input,
         actions,
     ]
