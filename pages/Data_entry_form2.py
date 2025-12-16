@@ -72,8 +72,8 @@ facility_select = st.selectbox("HEALTH FACILITY IF APPLICABLE:", [" ","Bigasa He
 list_box = st.selectbox("Select Mentor/TA Provider:", [" ", "Denis", "Mercy", "Zipporah", "Eveline", "Lilian", "Ponsiano", "Dr Zikulah"])
 additional_mentor = st.text_input("If other, specify name of Mentor/TA Provider:")
 
-text_input = st.text_input("ACTIVITY TOPIC")
-text_input = st.text_area("TEAMS INVOLVED")
+topic = st.text_input("ACTIVITY TOPIC")
+teams = st.text_area("TEAMS INVOLVED")
 key_issues = st.text_area("HIGHLIGHTS/FINDINGS")
 actions = st.text_area("RECOMMENDATIONS/NEXT STEPS")
 
@@ -88,8 +88,9 @@ if submitted:
         facility_select,
         list_box,
         additional_mentor,
-        text_input,
-        text_input,
+        topic,
+        teams,
+        Key_issues,
         actions,
     ]
     sheet.append_row(data)
