@@ -73,6 +73,7 @@ list_box = st.selectbox("Select Mentor/TA Provider:", [" ", "Denis", "Mercy", "Z
 additional_mentor = st.text_input("If other, specify name of Mentor/TA Provider:")
 
 text_input = st.text_input("ACTIVITY TOPIC")
+text_input = st.text_area("TEAMS INVOLVED")
 key_issues = st.text_area("Highlights/Findings")
 actions = st.text_area("Next Steps/Actions if applicable")
 
