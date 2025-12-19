@@ -7,6 +7,23 @@ import datetime
 
 st.sidebar.write("""Note: Refresh the data entry page before making a new entry.""")
 
+import streamlit as st
+
+# 1. Embed the Material Icons font CSS
+st.markdown(
+    """
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    """,
+    unsafe_allow_html=True
+)
+
+# 2. Use the icon's codepoint within an HTML span and apply CSS styling
+st.markdown(
+    '<span class="material-icons" style="color: blue; font-size: 40px;">cloud_upload</span>',
+    unsafe_allow_html=True
+)
+
+
 # Load credentials from secrets.toml
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 service_account_info = st.secrets["gcp_service_account"]
@@ -19,9 +36,6 @@ client = gspread.authorize(creds)
 
 # Open the Google Sheet
 sheet = client.open("Mentorship tool").worksheet("TA Data Entry form2")
-
-st.set_page_config(page_title="Data entry form2", page_icon=":material/Contract Edit:")
-st.markdown(">Please fill in the form below to submit Other activities!")
 
 
 # Use session_state keys for each widget so we can reset them after submission
