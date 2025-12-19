@@ -25,9 +25,9 @@ st.markdown(">Please fill in the form below to submit Other activities!")
 
 
 # Use session_state keys for each widget so we can reset them after submission
-selected_date = st.date_input("ACTIVITY DATE:", format="DD/MM/YYYY")
+selected_date = st.date_input("Activity Date:", format="DD/MM/YYYY")
 
-district_select = st.selectbox("SELECT DISTRICT IF APPLICABLE:", [" ","Bukomansimbi", "Butambala", "Gomba", "Kalungu", "Kyotera", "Lwengo", "Masaka City", "Mpigi", "Masaka Dist", "Kalangala", "Rakai", "Sembabule", "Wakiso",])
+district_select = st.selectbox("Select District:", [" ","Bukomansimbi", "Butambala", "Gomba", "Kalungu", "Kyotera", "Lwengo", "Masaka City", "Mpigi", "Masaka Dist", "Kalangala", "Rakai", "Sembabule", "Wakiso",])
 
 
 activity_venue = st.text_input("Enter activity Venue[If not at a Health Facility]:")
