@@ -29,7 +29,7 @@ selected_date = st.date_input("ACTIVITY DATE:", format="DD/MM/YYYY")
 
 district_select = st.selectbox("SELECT DISTRICT IF APPLICABLE:", [" ","Bukomansimbi", "Butambala", "Gomba", "Kalungu", "Kyotera", "Lwengo", "Masaka City", "Mpigi", "Masaka Dist", "Kalangala", "Rakai", "Sembabule", "Wakiso",])
 
-#facility_select = st.selectbox("HEALTH FACILITY IF APPLICABLE:", [" ","Bigasa Health center III", "Butenga Health center III", "Kagoggo Health Centre II", "Kigangazzi Health Centre II",
+# facility_select = st.selectbox("HEALTH FACILITY IF APPLICABLE:", [" ","Bigasa Health center III", "Butenga Health center III", "Kagoggo Health Centre II", "Kigangazzi Health Centre II",
 "Kisojjo Health Centre II", "Kitanda Health Centre III", "Mirambi Health Centre III", "St. Mary's Maternity & Nursing Home", "Bulo Health Centre III", "Butaaka Health Centre III", "Epi-CentreSenge Health Centre", 
 "Kalamba Community Health Centre II", "Kibugga Health Centre II", "Kitimba Health Centre III", "Kiziiko Health Centre II", "Kyabadaza Health Centre III", "Ngando Health Centre III","Gombe General Hospital",
 "Bulwadda Health Centre III", "Buyanja Health Centre II", "Kanoni Health Centre III", "Kifampa Health Centre III", "Kisozi Health Centre III", "Kitwe Health Centre II", "Kyayi Health Centre III", "Maddu Health Centre", 
