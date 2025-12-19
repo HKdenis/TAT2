@@ -20,7 +20,7 @@ client = gspread.authorize(creds)
 # Open the Google Sheet
 sheet = client.open("Mentorship tool").worksheet("TA Data Entry form2")
 
-st.header("***OTHER TA ACTIVITIES***")
+st.header('OTHER TA ACTIVITIES")
 st.markdown(">Please fill in the form below to submit Other activities!")
 
 
@@ -30,7 +30,7 @@ selected_date = st.date_input("Activity Date:", format="DD/MM/YYYY")
 district_select = st.selectbox("Select District:", [" ","Bukomansimbi", "Butambala", "Gomba", "Kalungu", "Kyotera", "Lwengo", "Masaka City", "Mpigi", "Masaka Dist", "Kalangala", "Rakai", "Sembabule", "Wakiso",])
 
 
-activity_venue = st.text_input("Enter activity Venue[If not at a Health Facility]:")
+activity_venue = st.text_input("Enter activity Venue:")
 
 list_box = st.selectbox("Select Mentor/TA Provider:", [" ", "Denis", "Mercy", "Zipporah", "Eveline", "Lilian", "Ponsiano", "Dr Zikulah"])
 additional_mentor = st.text_input("If other, specify name of Mentor/TA Provider:")
@@ -59,9 +59,7 @@ if submitted:
     sheet.append_row(data)
     st.success("submitted successfully!")
 
-
-    
- # 
+  
 
 
        
