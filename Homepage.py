@@ -11,6 +11,14 @@ import datetime
 st.set_page_config(page_title="Technical assistance tracker",
     page_icon="🧊",
 )
+show_pages(
+    [
+        Page("Homepage.py", "Technical Assistance Tool", "🏠"),
+        Page("Data_entry.py", "Activity Report", ":books:"),
+        page("Data_entry_form2","Other TA Activity Report", ":contract edit:"),
+        Page("Mentorship_Records","Visualisation", ":buld light:')
+    ]
+)
 
 st.title("🧊 Technical Assistance Tracker")
 st.write("""
@@ -66,6 +74,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
