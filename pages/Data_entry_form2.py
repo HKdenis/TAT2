@@ -68,12 +68,12 @@ facility_select = st.selectbox("HEALTH FACILITY IF APPLICABLE:", [" ","Bigasa He
 "Wakiso Banda Health Centre II", "Wakiso EPI Health Centre III", "Wakiso Health Centre IV",
 "Wakiso Kasozi Health Centre III", "Watubba Health Centre III", "Zzinga Health Centre III"])
 
-Office = st.text_input("Activity Venue[If not at a Health Facility]:")
+Office = st.text_input("Enter activity Venue[If not at a Health Facility]:")
 
 list_box = st.selectbox("Select Mentor/TA Provider:", [" ", "Denis", "Mercy", "Zipporah", "Eveline", "Lilian", "Ponsiano", "Dr Zikulah"])
 additional_mentor = st.text_input("If other, specify name of Mentor/TA Provider:")
 
-topic = st.text_input("ACTIVITY TOPI:C")
+topic = st.text_input("ACTIVITY TOPIC:")
 teams = st.text_area("TEAMS INVOLVED:")
 key_issues = st.text_area("HIGHLIGHTS/FINDINGS:")
 actions = st.text_area("RECOMMENDATIONS/NEXT STEPS:")
