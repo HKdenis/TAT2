@@ -9,7 +9,7 @@ import datetime
 from st_pages import Page, show_pages, add_page_title
 
 # Optional -- adds the title and icon to the current page
-add_page_title(Technical Assistance Tool)
+add_page_title("Technical Assistance Tool")
 
 # Specify what pages should be shown in the sidebar, and what their titles 
 # and icons should be
@@ -76,6 +76,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
