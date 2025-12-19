@@ -21,7 +21,7 @@ client = gspread.authorize(creds)
 sheet = client.open("Mentorship tool").worksheet("TA Data Entry form2")
 
 st.set_page_config(page_title="OTHER TA ACTIVITIES",
-    page_icon="https://www.gstatic.com/_/mss/boq-fonts/_/js/k=boq-fonts.GoogleFontsCatalogUi.en_US.4St9liH9fRY.2018.O/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AN-kedRU78xL7W_9VVKWzeXQaHtF-MTR7A/ee=Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd/dti=1/m=_b",
+    page_icon="Home",
 )
 st.markdown(">Please fill in the form below to submit Other activities!")
 
