@@ -6,21 +6,24 @@ from oauth2client.service_account import ServiceAccountCredentials
 from google.oauth2 import service_account
 import os
 import datetime
-from st_pages import Page, show_pages, add_page_title
 
-# Optional -- adds the title and icon to the current page
-add_page_title("Technical Assistance Tool")
+import streamlit as st
 
-# Specify what pages should be shown in the sidebar, and what their titles 
-# and icons should be
-Show_pages(
-    [
-        Page("Homepage.py", "Technical Assistance Tool", "🏠"),
-        Page("Data_entry.py", "Activity Report", ":books:"),
-        page("Data_entry_form2","Other TA Activity Report", ":contract edit:"),
-        Page("Mentorship_Records","Visualisation", ":buld light:")
-    ]
-)
+# Set the page configuration with an icon
+st.set_page_config(page_title="Icon Demo", page_icon=":material/lightbulb:")
+
+st.title("Using Material Icons in Streamlit")
+
+# Use a material icon in a button
+st.button("Table Bar", icon=":material/table_bar:")
+st.button("Table View", icon=":material/table_view:")
+
+# Use an icon in an info box
+st.info("This is an informational message with an icon: :material/info:")
+
+# Use an icon in the sidebar
+st.sidebar.subheader("Navigation :material/list:")
+
 
 st.title("🧊 Technical Assistance Tracker")
 st.write("""
@@ -76,6 +79,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
