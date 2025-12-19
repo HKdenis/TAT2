@@ -41,7 +41,7 @@ key_issues = st.text_area("Highlights/Findings:")
 actions = st.text_area("Recommendations;Responsible persons;Timeframe:")
 
 
-submitted = st.button("SUBMIT")
+submitted = st.button("SUBMIT BUTTON")
 
 # appending a row
 if submitted:
