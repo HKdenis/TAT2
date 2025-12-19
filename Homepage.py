@@ -8,7 +8,7 @@ import os
 import datetime
 
 
-show_pages(
+set_page.config(
     [
         Page("Homepage.py", "Technical Assistance Tool", "🏠"),
         Page("Data_entry.py", "Activity Report", ":books:"),
@@ -71,6 +71,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
