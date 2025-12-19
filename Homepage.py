@@ -10,7 +10,7 @@ import datetime
 import streamlit as st
 
 # Set the page configuration with an icon
-st.set_page_config(page_title="Icon Demo", page_icon=":material/lightbulb:")
+st.set_page_config(page_title="Technical Assistance Tracker", page_icon=":material/Home:")
 
 st.title("Using Material Icons in Streamlit")
 
@@ -79,6 +79,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
