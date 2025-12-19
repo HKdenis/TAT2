@@ -68,6 +68,8 @@ facility_select = st.selectbox("HEALTH FACILITY IF APPLICABLE:", [" ","Bigasa He
 "Wakiso Banda Health Centre II", "Wakiso EPI Health Centre III", "Wakiso Health Centre IV",
 "Wakiso Kasozi Health Centre III", "Watubba Health Centre III", "Zzinga Health Centre III"])
 
+Office = st.text_input("Activity Venue")
+
 list_box = st.selectbox("Select Mentor/TA Provider:", [" ", "Denis", "Mercy", "Zipporah", "Eveline", "Lilian", "Ponsiano", "Dr Zikulah"])
 additional_mentor = st.text_input("If other, specify name of Mentor/TA Provider:")
 
@@ -85,6 +87,7 @@ if submitted:
         selected_date.strftime("%d/%m/%Y") if hasattr(selected_date, "strftime") else str(selected_date),
         district_select,
         facility_select,
+        office,
         list_box,
         additional_mentor,
         topic,
