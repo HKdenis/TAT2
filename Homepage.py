@@ -12,10 +12,6 @@ st.set_page_config(page_title="Technical Assistance Tracker", page_icon=":materi
 
 st.title("Technical Assistance Tracker")
 
-# Use a material icon in a button
-st.button("Table Bar", icon=":material/table_bar:")
-st.button("Table View", icon=":material/table_view:")
-
 # Use an icon in an info box
 st.info("This is an informational message with an icon: :material/info:")
 
@@ -77,6 +73,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
