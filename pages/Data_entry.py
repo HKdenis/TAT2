@@ -41,7 +41,7 @@ facility_select = st.selectbox("HEALTH FACILITY:", [" ","Bigasa Health center II
 "Kiwangala Health Centre IV","Kabayanda Health Centre II", "Kaliiro Health Centre III", "Kasagama Health Centre III", "Kinuuka Health Centre III", "Kyemamba Health Centre II", "Lyakajura Health Centre III", "Lyantonde General Hospital", 
 "Masaka Municipal Clinic", "Masaka Police Health Centre III", "Mpugwe Health Centre III", "Nyendo Health Centre III", "TASO Masaka", "Bukakata Health Centre III",
 "Bukeeri Health Centre III", "Buwunga Health Centre III", "Buyaga Health Centre II", "Kamulegu Health Centre III", "Kyanamukaaka Health Centre IV", "Bujuuko Health Centre III", "Bukasa Health Centre II", 
-"Buwama Health Centre III", "Buyiga Health Centre III", "Dona Carnevale Medical Centre", "Fiduga Medical Centre", "Ggolo Health Centre III","Butoolo Health centre III", 
+"Buwama Health Centre III","Bunjako Health Centre", "Buyiga Health Centre III", "Dona Carnevale Medical Centre", "Fiduga Medical Centre", "Ggolo Health Centre III","Butoolo Health centre III", 
 "Kampiringisa Health Centre III", "Kiringente Epi Health Centre II", "Kituntu Health Centre III", "Mpigi Health Centre IV", "Muduuma Health Centre III", "Nabyewanga Health Centre II", "Nindye Health Centre",
  "Nsamu/Kyali Health Centre III", "Sekiwunga Health Centre III", "St. Elizabeth Kibanga Ihu Health Centre III", "Bugona Health Centre II",
 "Butiti Health Centre II", "Buyamba Health Centre III", "Byakabanda Health Centre III", "Kacheera Health Centre III",
@@ -108,6 +108,7 @@ if submitted:
 
 
        
+
 
 
 
