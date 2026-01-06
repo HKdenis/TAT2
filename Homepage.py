@@ -7,16 +7,6 @@ from google.oauth2 import service_account
 import os
 import datetime
 
-
-st.title("Technical Assistance Tracker")
-
-# Use an icon in an info box
-st.info("This is an informational message with an icon: :material/info:")
-
-# Use an icon in the sidebar
-st.sidebar.subheader("Navigation :material/list:")
-
-
 st.title("🧊 Technical Assistance Tracker")
 st.write("""
 Welcome to the Technical Assistance Tracker! 
@@ -71,6 +61,7 @@ st.line_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
