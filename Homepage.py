@@ -36,7 +36,7 @@ worksheet = spreadsheet.worksheet("app sheet")
 # Fetch all records from the worksheet
 data = worksheet.get_all_records()
                  
-df = pd.DataFrame(data)
+df = pd.DataFrame(ata)
 
 # Parse Visit Date as datetime and aggregate by month
 df['Visit Date'] = pd.to_datetime(df['Visit Date'], errors='coerce')
@@ -61,6 +61,7 @@ st.bar_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
