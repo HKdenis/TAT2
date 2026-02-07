@@ -57,10 +57,11 @@ else:
 # Format Month as "Month Year" and aggregate counts per month
 df['Month'] = df['Month'].dt.strftime('%B %Y')
 monthly_counts = df.groupby('Month').size().reindex(month_year_order, fill_value=0)
-st.line_chart(monthly_counts)
+st.bar_chart(monthly_counts)
 
 
 st.markdown("Developed by EMTCT © Nov 2025")
+
 
 
 
